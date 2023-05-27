@@ -1,0 +1,10 @@
+<div class="categoria_peliculas">
+    <div class="peliculas">
+        <div *ngFor="let pelicula of peliculas" class="pelicula">
+            <h2>{{pelicula.nombre_pelicula}}</h2>
+            <img [src]="pelicula.url_pelicula">
+            <!-- <p>{{pelicula.descripcion_pelicula}}</p> -->
+            <button (click)="verPelicula(pelicula.nombre_pelicula)">Ver pelicula</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="inicio">
+    <div class="categorias">
+        <div *ngFor="let categoria of categoria" class="categoria" id="categoria">
+            <h2>{{ categoria.nombre_categoria}}</h2>
+            <div class="portadas">
+                <div *ngFor="let imagen of categoria.portadas" class="imagen">
+                    <img [src]="imagen">
+                </div>
+            </div>
+            <button (click)="verPeliculas(categoria.nombre_categoria)">Entrar</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="detalle_pelicula">
+    <div class="detalle">
+        <div class="pelicula">
+            <div class="elementos">
+                <div class="informacion">
+                    <h2>Nombre: {{pelicula.nombre_pelicula}}</h2>
+                    <p>Director: {{pelicula.director}}</p>
+                    <p>Taquilla: {{pelicula.taquilla}}</p>
+                </div>
+                <img [src]="pelicula.url_pelicula">
+            </div>
+            <p class="descripcion">{{pelicula.descripcion_pelicula}}</p>
+        </div>
+    </div>
+</div>

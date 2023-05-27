@@ -1,0 +1,29 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001641;
+    padding: 0px 100px;
+    /* gap: 800px; */
+    height: 100px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav img {
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    /* cursor: pointer; */
+}
