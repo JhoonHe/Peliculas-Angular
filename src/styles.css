@@ -156,7 +156,7 @@ button:hover {
     text-align: center;
 }
 
-.categoria_peliculas .portada_titulo h2:hover {
+.categoria_peliculas .pelicula:hover .portada_titulo h2 {
     height: 100%;
 }
 

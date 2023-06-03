@@ -11,7 +11,12 @@ let PELICULAS = [
     { nombre_pelicula: 'Megan', descripcion_pelicula: 'Gemma, diseñadora de una muñeca de inteligencia artificial extraordinaria, se convierte en la tutora legal de una niña. Abrumada por la responsabilidad, cede su educación y protección a la muñeca, sin saber que las consecuencias serán terribles.', url_pelicula: 'https://image.tmdb.org/t/p/w185_and_h278_bestv2//xBl5AGw7HXZcv1nNXPlzGgO4Cfo.jpg', nombre_categoria: 'Terror', director: 'Gerard Johnstone', taquilla: '2' },
 
     { nombre_pelicula: 'La Huérfana: el origen', descripcion_pelicula: 'Después de escapar de un centro psiquiátrico en Estonia, Esther viaja a Estados Unidos haciéndose pasar por la hija desaparecida de una familia adinerada. Sin embargo, surge un giro inesperado que la enfrenta a una madre.', url_pelicula: 'https://image.tmdb.org/t/p/w185_and_h278_bestv2//sAxU4A7jaPbHf6beuZx7vWFOWqM.jpg', nombre_categoria: 'Terror', director: 'William Brent Bell', taquilla: '1' },
+    //
+    { nombre_pelicula: 'Buscando a nemo', descripcion_pelicula: 'Marlin, un pez payaso, siempre ha intentado proteger de todos los peligros a su hijo. Sin embargo, un buzo atrapa al pequeño, y ahora el padre deberá embarcarse en una increíble aventura por las aguas australianas para encontrarlo.', url_pelicula: 'https://cuevana3.mov/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FjPhak722pNGxQIXSEfeWIUqBrO5.jpg&w=256&q=75', nombre_categoria: 'Animada', director: 'Andrew Stanton', taquilla: '3' },
 
+    { nombre_pelicula: 'Rápidos y furiosos X', descripcion_pelicula: 'Fast X es una película de acción estadounidense dirigida por Louis Leterrier y escrita por Justin Lin y Dan Mazeau. Es la secuela de F9, que actúa como la décima entrega principal y el undécimo largometraje de la franquicia Fast & Furious.', url_pelicula: 'https://cuevana3.mov/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fjmdi62j5uJV60EtYY8zsE1LRYEf.jpg&w=256&q=75', nombre_categoria: 'Acción', director: 'Louis Leterrier', taquilla: '4' },
+
+    { nombre_pelicula: 'El juego del miedo', descripcion_pelicula: 'Adam y Lawrence se despiertan encadenados en un baño infecto con un cadáver entre ellos. Su secuestrador es un maniaco, cuyo juego consiste en forzar a sus cautivos a herirse a sí mismos o a otros para permanecer vivos.', url_pelicula: 'https://cuevana3.mov/_next/image?url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2Fk9h1Don5JWNhLMAjspwbiMMoDzS.jpg&w=256&q=75', nombre_categoria: 'Terror', director: 'James Wan', taquilla: '2' }
 ]
 
 export { PELICULAS }
